@@ -17,11 +17,14 @@ header{
 }
 
 main{
+  
 flex-grow: 1;
 }
 
 footer{
-  height: 100px;
+  height:100px;
+  background: white;
+
 }
 
 
@@ -42,8 +45,10 @@ footer{
 
 .img-col{
   display:flex;
-  gap:20px;
+  gap: 20px;
   background: white;
+  padding: 10px;
+  margin-left: 13px;
 }
 
 .tabs-social-media{
@@ -56,10 +61,27 @@ footer{
   font-size: 25px;
 }
 
+
+
 .nav-tabs {
   gap: 10px;
+  background: #C7C7C7;
   ;
 }
+
+//Tabs
+
+.Tabs-wrapper{
+  
+}
+
+//footer
+
+.f-social-media{
+  
+}
+
+
 
 `
 export default Globalestyle;

@@ -80,19 +80,25 @@ function HomeContent() {
                 Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi, a rutrum justo eros pretium libero. Nullam vel enim id mauris eleifend finibus et ac orci. Aliquam metus massa, aliquam quis arcu sit amet, consectetur faucibus urna. Suspendisse massa diam, efficitur eu massa euismod, pretium lacinia magna. Donec mi orci, sollicitudin in luctus a, varius eget massa.
               </p>
             </Container>
-            <Container>
+            <Container className="Tabs-wrapper">
               <ContentTabs/>
             </Container>
           </main>
           <footer>
-            <FooterContent>
-            <span>
-              <i class="fab fa-vimeo-v"></i>
-              <i class="fab fa-youtube"></i>
-              </span>
-              <p> hello@yay.com</p>
-              <p>Copyright 2020</p>
-            </FooterContent>
+            <Container>
+              <FooterContent>
+                <span className="f-social-media">
+                  <i class="fab fa-vimeo-v"></i>
+                  <i class="fab fa-youtube"></i>
+                </span>
+                <span className="footer-p ">
+                  <p> hello@yay.com</p>
+                  <p >Copyright 2020</p>
+                </span>
+                 
+              </FooterContent>
+            </Container>
+            
           </footer>
         </div>
       </ThemeProvider>

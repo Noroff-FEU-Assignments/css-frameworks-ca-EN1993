@@ -28,7 +28,15 @@ button:not(:disabled) {
   border-color: #e92569;
 }
 
-.Container {
-  margin: 25px auto;
-  background: orange;
-}
+/* @media(max-width: 990px){
+   .footer-p{
+    
+    background: green;
+  }
+
+  footer{
+   
+    display:block;
+    background: greenyellow;
+  }
+} */
