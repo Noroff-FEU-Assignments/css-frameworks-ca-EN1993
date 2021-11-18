@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -28,15 +28,4 @@ button:not(:disabled) {
   border-color: #e92569;
 }
 
-/* @media(max-width: 990px){
-   .footer-p{
-    
-    background: green;
-  }
 
-  footer{
-   
-    display:block;
-    background: greenyellow;
-  }
-} */

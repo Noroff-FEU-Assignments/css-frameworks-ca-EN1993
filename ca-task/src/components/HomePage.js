@@ -13,42 +13,44 @@ import image3 from'../images/carousel/carousel-3.jpg';
 import FooterContent from './footer/FooterContent';
 import { ThemeProvider } from 'styled-components';
 import PageHeading from './Heading/PageHeading';
-import theme from '../components/Styles/theme';
+import theme from './Styles/theme';
 
-
-function HomeContent() {
+function HomePage() {
   return (
     <>
       <ThemeProvider theme={theme}>
         <Globalestyle/>
-        <div className=".page-wrapper">
-          <header>
-            <Navbar bg="light" expand="lg">
-              <Container fluid>
-                <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-                  <Nav
-                    className="me-auto my-2 my-lg-0"
-                    style={{ maxHeight: '100px' }}
-                    navbarScroll
-                  >
-                    <Nav.Link href="#action1" className="active">Home</Nav.Link>
-                    <Nav.Link href="#action2">News</Nav.Link>
-                    <Nav.Link href="#action2">Contact</Nav.Link>
-                  </Nav>
-                  <Form className="d-flex">
-                    <Form.Control
-                      type="search"
-                      placeholder="Search"
-                      className="me-2"
-                      aria-label="Search"
-                    />
-                    <Button variant="outline-success" className="search">Go</Button>
-                  </Form>
-                </Navbar.Collapse>
-              </Container>
-            </Navbar>
+        <div className=".page--wrapper">
+          <header >
+            <Container>
+              <Navbar bg="light" expand="lg">
+                <Container fluid>
+                  <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
+                  <Navbar.Toggle aria-controls="navbarScroll" />
+                  <Navbar.Collapse id="navbarScroll">
+                    <Nav
+                      className="me-auto my-2 my-lg-0"
+                      style={{ maxHeight: '' }}
+                      navbarScroll
+                    >
+                      <Nav.Link href="./HomePage.js" className="active">Home</Nav.Link>
+                      <Nav.Link href="./News/NewsPage.js">News</Nav.Link>
+                      <Nav.Link href="#action2">Contact</Nav.Link>
+                    </Nav>
+                    <Form className="d-flex">
+                      <Form.Control
+                        type="search"
+                        placeholder="Search"
+                        className="me-2"
+                        aria-label="Search"
+                      />
+                      <Button variant="outline-success" className="search">Go</Button>
+                    </Form>
+                  </Navbar.Collapse>
+                </Container>
+              </Navbar>
+            </Container>
+             
           </header>
           <main>
             <Carousel data-interval="false">
@@ -108,4 +110,4 @@ function HomeContent() {
   )
 }
 
-export default HomeContent;
+export default HomePage;

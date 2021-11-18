@@ -16,34 +16,73 @@ function ContentTabs() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>First</Accordion.Header>
           <Accordion.Body>
-            <di>
-
-            </di>
+            <div>
+              <div className="a-content">
+                <p>
+                  Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
+                </p>
+                
+                <img
+                    className="d-block accordion-image"
+                    src={image1}
+                    alt="black white tv"
+                />
+             
+                <span className="a-social-media">
+                  <p>SHARE</p>
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </div>
+            </div>
 
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>Second</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est laborum.
+            <div>
+                <div className="a-content">
+                  <p>
+                    Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
+                  </p>
+                  
+                  <img
+                      className="d-block accordion-image"
+                      src={image2}
+                      alt="images wall"
+                  />
+              
+                  <span className="a-social-media">
+                    <p>SHARE</p>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </div>
+              </div>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
           <Accordion.Header>Third</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est laborum.
+            <div>
+              <div className="a-content">
+                <p>
+                  Morbi eget efficitur turpis. Vivamus pellentesque tortor massa, venenatis pharetra leo laoreet a. Nullam non eleifend justo, a ullamcorper turpis. Cras vehicula pharetra lectus non maximus. Sed condimentum mattis rhoncus. 
+                </p>
+                <img
+                    className="d-block accordion-image"
+                    src={image3}
+                    alt=""
+                />
+             
+                <span className="a-social-media">
+                  <p>SHARE</p>
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                </span>
+              </div>
+            </div>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
@@ -61,7 +100,7 @@ function ContentTabs() {
                   <img
                       className="d-block w-250px"
                       src={image1}
-                      alt="old tv components"
+                      alt="black white tv"
                   />
                 </div>
                 <div>
@@ -84,7 +123,7 @@ function ContentTabs() {
                   <img
                       className="d-block w-250px"
                       src={image2}
-                      alt="old tv components"
+                      alt="images wall"
                   />
                 </div>
                 <div>
@@ -107,7 +146,7 @@ function ContentTabs() {
                 <img
                     className="d-block w-250px"
                     src={image3}
-                    alt="old tv components"
+                    alt=""
                 />
               </div>
               <div>

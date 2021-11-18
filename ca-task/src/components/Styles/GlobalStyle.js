@@ -1,19 +1,20 @@
 import{createGlobalStyle} from'styled-components';
 const Globalestyle=createGlobalStyle`
 body{
+  margin: 0 auto;
   height:100vh;
   background:#C7C7C7;
   
 }
 
-.page-wrapper{
+.page--wrapper{
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
 header{
-  background:blue;
+  background:#EFEFEF;
 }
 
 main{
@@ -36,10 +37,16 @@ footer{
   background: white;
 }
 
-
+.my-2 {
+ 
+  margin-bottom: 0rem !important;
+}
+.navbar-nav-scroll {
+  overflow-y: unset;
+}
 
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-  margin: 25px auto;
+  margin: 0px auto;
  
 }
 
@@ -51,7 +58,7 @@ footer{
   margin-left: 13px;
 }
 
-.tabs-social-media{
+.tabs-social-media, .a-social-media{
   display:flex;
   gap: 15px
   
@@ -72,7 +79,7 @@ footer{
 //Tabs
 
 .Tabs-wrapper{
-  
+  margin: 25px auto;
 }
 
 //footer
@@ -81,7 +88,20 @@ footer{
   
 }
 
+//accordion
+.accordion-image{
+  width:300px;
+}
 
+.a-content{
+  margin: 5px auto;
+  max-width: 770px;
+  width: 300px;
+}
+
+.a-social-media{
+  padding: 25px 0px 0px 6rem;
+}
 
 `
 export default Globalestyle;

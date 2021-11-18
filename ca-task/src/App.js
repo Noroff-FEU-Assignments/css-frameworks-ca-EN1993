@@ -1,11 +1,11 @@
 
 import './App.css';
 
-import HomeContent from './components/HomeContent';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
-    <HomeContent/>
+    <HomePage/> 
   );
 }
 
