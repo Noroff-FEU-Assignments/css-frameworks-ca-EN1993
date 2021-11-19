@@ -1,13 +1,13 @@
 import React from 'react'
-import Globalestyle from '../Styles/GlobalStyle';
+import Globalestyle from './Styles/GlobalStyle';
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Nav from'react-bootstrap/Nav';
 import Container from'react-bootstrap/Container';
-import FooterContent from '../footer/FooterContent';
+import FooterContent from './footer/FooterContent';
 import { ThemeProvider } from 'styled-components';
-import theme from '../Styles/theme';
+import theme from './Styles/theme';
 
 
 
