@@ -3,9 +3,9 @@ import Tabs from'react-bootstrap/Tabs';
 import Tab from'react-bootstrap/Tab';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import image1 from'../images/tab/tab-1.jpg';
-import image2 from'../images/tab/tab-2.jpg';
-import image3 from'../images/tab/tab-3.jpg';
+import image1 from'../Images/tab/tab-1.jpg';
+import image2 from'../Images/tab/tab-2.jpg';
+import image3 from'../Images/tab/tab-3.jpg';
 import Accordion from'react-bootstrap/Accordion';
 
 

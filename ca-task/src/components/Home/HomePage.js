@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Nav from'react-bootstrap/Nav';
 import Container from'react-bootstrap/Container';
 import Carousel from'react-bootstrap/Carousel';
-import ContentTabs from '../ContentTabs';
+import ContentTabs from './ContentTabs';
 import image1 from'../Images/carousel/carousel-1.jpg';
 import image2 from'../Images/carousel/carousel-2.jpg';
 import image3 from'../Images/carousel/carousel-3.jpg';
@@ -93,7 +93,6 @@ function HomePage() {
                 <Footer/>
               </FooterContent>
             </Container>
-            
           </footer>
         </div>
       </ThemeProvider>
