@@ -1,6 +1,6 @@
 
 const theme = {
-  primaryCoulor:"#E92569",
+  primaryColour:"#E92569",
   secondaryColour:"#FFFFFF",
   thirdColour:"white",
 

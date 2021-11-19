@@ -1,7 +1,7 @@
 import{createGlobalStyle} from'styled-components';
-const Globalestyle=createGlobalStyle`
-body{
-  margin: 0 auto;
+const GlobalStyle=createGlobalStyle`
+html,body{
+  margin: 0;
   height:100vh;
   background:#C7C7C7;
   
@@ -10,22 +10,24 @@ body{
 .page--wrapper{
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
+  
 }
 
 header{
   background:#EFEFEF;
+  
 }
 
-main{
-  
+main{  
 flex-grow: 1;
+background: ;
+
 }
 
 footer{
-  height:100px;
   background: white;
-
+  
 }
 
 
@@ -71,7 +73,7 @@ footer{
 
 
 .nav-tabs {
-  gap: 10px;
+  gap: 10px;                 
   background: #C7C7C7;
   ;
 }
@@ -104,4 +106,4 @@ footer{
 }
 
 `
-export default Globalestyle;
+export default GlobalStyle;

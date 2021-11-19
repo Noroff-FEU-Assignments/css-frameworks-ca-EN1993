@@ -1,9 +1,5 @@
 import React from 'react'
-import Globalestyle from '../Styles/GlobalStyle';
-import Navbar from 'react-bootstrap/Navbar';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Nav from'react-bootstrap/Nav';
+import GlobalStyle from '../Styles/GlobalStyle';
 import Container from'react-bootstrap/Container';
 import Carousel from'react-bootstrap/Carousel';
 import ContentTabs from './ContentTabs';
@@ -18,42 +14,10 @@ import Footer from '../Footer/Footer';
 
 function HomePage() {
   return (
-    <>
+    <div className="page--wrapper">
       <ThemeProvider theme={theme}>
-        <Globalestyle/>
-        <div className=".page--wrapper">
-          <header >
-            <Container>
-              <Navbar bg="light" expand="lg">
-                <Container fluid>
-                  <Navbar.Brand href="#">The YAY Company</Navbar.Brand>
-                  <Navbar.Toggle aria-controls="navbarScroll" />
-                  <Navbar.Collapse id="navbarScroll">
-                    <Nav
-                      className="me-auto my-2 my-lg-0"
-                      style={{ maxHeight: '' }}
-                      navbarScroll
-                    >
-                      <Nav.Link href="./HomePage.js" className="active">Home</Nav.Link>
-                      <Nav.Link href="./News/NewsPage.js">News</Nav.Link>
-                      <Nav.Link href="#action2">Contact</Nav.Link>
-                    </Nav>
-                    <Form className="d-flex">
-                      <Form.Control
-                        type="search"
-                        placeholder="Search"
-                        className="me-2"
-                        aria-label="Search"
-                      />
-                      <Button variant="outline-success" className="search">Go</Button>
-                    </Form>
-                  </Navbar.Collapse>
-                </Container>
-              </Navbar>
-            </Container>
-             
-          </header>
-          <main>
+        <GlobalStyle/>
+          <main className="main-wrapper">
             <Carousel data-interval="false">
               <Carousel.Item>
                 <img
@@ -94,11 +58,10 @@ function HomePage() {
               </FooterContent>
             </Container>
           </footer>
-        </div>
       </ThemeProvider>
-      
+    </div>
                   
-    </>
+    
   )
 }
 
