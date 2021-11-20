@@ -1,11 +1,10 @@
 import React from 'react'
 import GlobalStyle from '../Styles/GlobalStyle';
 import Container from'react-bootstrap/Container';
-import Footer from '../Footer/Footer';
 import FooterContent from '../Footer/FooterContent';
 import { ThemeProvider } from 'styled-components';
 import theme from '../Styles/theme';
-
+import Footer from '../Footer/Footer';
 
 
 

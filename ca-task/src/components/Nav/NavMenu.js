@@ -5,7 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import HomePage from '../Home/HomePage';
 import NewsPage from '../News/NewsPage';
 import ContactPage from '../Contact/ContactPage';
-import Container from "react-bootstrap/esm/Container";
+import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 

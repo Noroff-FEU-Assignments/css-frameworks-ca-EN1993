@@ -105,5 +105,7 @@ footer{
   padding: 25px 0px 0px 6rem;
 }
 
+
+
 `
 export default GlobalStyle;
