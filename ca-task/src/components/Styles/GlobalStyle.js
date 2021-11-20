@@ -1,6 +1,6 @@
 import{createGlobalStyle} from'styled-components';
 const GlobalStyle=createGlobalStyle`
-html,body{
+  body{
   margin: 0;
   height:100vh;
   background:#C7C7C7;
@@ -12,14 +12,16 @@ html,body{
   flex-direction: column;
   height: 100vh;
   
+  
 }
 
 header{
   background:#EFEFEF;
+ 
   
 }
 
-main{  
+.main-wrapper{  
 flex-grow: 1;
 background: ;
 
@@ -27,12 +29,14 @@ background: ;
 
 footer{
   background: white;
+  height: 100px;
   
 }
 
 
 .navbar-light .navbar-brand {
   color:#E92569;
+  
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {

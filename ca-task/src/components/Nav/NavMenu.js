@@ -46,7 +46,7 @@ function NavMenu() {
             <Route exact path="/">
                 <HomePage />
             </Route>
-            <Route path="/about">
+            <Route path="/news">
                 <NewsPage/>
             </Route>
             <Route path="/contact">
