@@ -5,6 +5,9 @@ import FooterContent from '../Footer/FooterContent';
 import { ThemeProvider } from 'styled-components';
 import theme from '../Styles/theme';
 import Footer from '../Footer/Footer';
+import PageHeading from "../Heading/PageHeading";
+import NewsContent from "./NewsContent";
+
 
 function NewsPage () {
   return(
@@ -13,7 +16,10 @@ function NewsPage () {
         <GlobalStyle/>
         <div className="page--wrapper">
           <main className="main-wrapper">
-           <h2>This is News page</h2> 
+            <Container>
+              <PageHeading>News</PageHeading>
+              <NewsContent/>
+            </Container>
           </main>
           <footer>
             <Container>

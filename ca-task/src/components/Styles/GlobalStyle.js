@@ -109,6 +109,32 @@ footer{
   padding: 25px 0px 0px 6rem;
 }
 
+//NEWS
+
+.news-col{
+  width: 290px;
+  background: white;
+  border-radius: 20px;
+  padding-bottom: 25px;
+  margin: 10px auto;
+}
+
+.news--col{
+  width: 270px;
+  margin: 7px;
+  position: relative;
+  left: 13px;
+}
+
+.More-btn{
+  width: 250px;
+}
+
+//CONTACT
+.contact-info{
+  display:flex;
+  gap: 15px;
+}
 
 
 `
