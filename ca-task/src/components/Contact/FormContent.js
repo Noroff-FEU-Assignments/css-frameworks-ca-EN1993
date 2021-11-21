@@ -10,37 +10,40 @@ import FormControl from "react-bootstrap/FormControl"
 function FormContent() {
   return(
     <>
-      <Row>
-        <Col>
-          <Form >
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Name</Form.Label>
-              <Form.Control type="name" placeholder="Enter name" />
-            </Form.Group>
+      
+      <Row className="contact-wrapper">
+        <div className="form-wrapper">
+          <Col>
+            <Form >
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Name</Form.Label>
+                <Form.Control type="name" placeholder="Enter name" />
+              </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Email</Form.Label>
-              <Form.Control type="email" placeholder="email" />
-            </Form.Group>
-            <Form.Label htmlFor="basic-url">Website</Form.Label>
-            <InputGroup className="mb-3">
-                <InputGroup.Text id="basic-addon3">
-                  https://
-                </InputGroup.Text>
-              <FormControl id="basic-url" aria-describedby="basic-addon3" />
-            </InputGroup>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-              <Form.Label>Message</Form.Label>
-              <Form.Control as="textarea" rows={6} />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
-            <Button variant="primary" type="submit">
-              Submit
-            </Button>
-          </Form>
-        </Col>
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" placeholder="email" />
+              </Form.Group>
+              <Form.Label htmlFor="basic-url">Website</Form.Label>
+              <InputGroup className="mb-3">
+                  <InputGroup.Text id="basic-addon3">
+                    https://
+                  </InputGroup.Text>
+                <FormControl id="basic-url" aria-describedby="basic-addon3" />
+              </InputGroup>
+              <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                <Form.Label>Message</Form.Label>
+                <Form.Control as="textarea" rows={6} />
+              </Form.Group>
+              <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Allow us to sell your personal details to whomever we want" />
+              </Form.Group>
+              <Button variant="primary" type="submit" className="contact-submit-btn">
+                Submit
+              </Button>
+            </Form>
+          </Col>
+        </div>
         <Col >
         <div className="contact-info-wrapper">
           <div className="contact-info">

@@ -131,9 +131,33 @@ footer{
 }
 
 //CONTACT
+
+.contact-wrapper{
+  width: 300px;
+}
 .contact-info{
   display:flex;
   gap: 15px;
+}
+
+.form-wrapper{
+  width:300px;
+  margin: 10px auto;
+}
+
+.contact-info-wrapper{
+  width:300px;
+  margin: 10px auto;
+}
+
+.contact-submit-btn{
+  width: 276px;
+}
+
+@media(min-width: 700px){
+  .contact-wrapper{
+    width: 700px;
+  }
 }
 
 
