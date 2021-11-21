@@ -4,6 +4,7 @@ const GlobalStyle=createGlobalStyle`
   margin: 0;
   height:100vh;
   background:#C7C7C7;
+  font-family: 'Lato', sans-serif;
   
 }
 
@@ -123,7 +124,7 @@ footer{
   width: 270px;
   margin: 7px;
   position: relative;
-  left: 13px;
+  left: 20px;
 }
 
 .More-btn{
